@@ -1,0 +1,38 @@
+pluginManagement {
+    repositories {
+
+
+        mavenLocal()
+        mavenCentral()
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://maven.goodle.com' }
+        maven { url 'https://dl.bintray.com/dkzwm/maven-wmm' }
+
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        jcenter()
+        mavenLocal()
+        mavenCentral()
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        maven { url 'https://www.jitpack.io' }
+        maven { url 'https://maven.goodle.com' }
+        maven { url 'https://dl.bintray.com/dkzwm/maven-wmm' }
+
+    }
+}
+
+rootProject.name = "TextApplication"
+include ':app'
